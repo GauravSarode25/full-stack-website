@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Cafe Love Byte | Dates, Food & Good Vibes</title>
+    <meta name="title" content="Cafe Love Byte | Dates, Food & Good Vibes" />
+    <meta name="description" content="Cafe Love Byte is a couple-friendly and group-friendly café offering delicious food, private spaces, great ambience and memorable dining experiences." />
+    <meta name="keywords" content="Cafe Love Byte, romantic cafe, date spot, aesthetic cafe, specialty coffee, gourmet burgers, private cabana, group hangout" />
+    <meta name="author" content="Cafe Love Byte" />
+    <meta name="theme-color" content="#7A1F3D" />
+    <link rel="canonical" href="https://cafelovebyte.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="Cafe Love Byte" />
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:url" content="https://cafelovebyte.com/" />
+    <meta property="og:title" content="Cafe Love Byte | Dates, Food & Good Vibes" />
+    <meta property="og:description" content="Cafe Love Byte is a couple-friendly and group-friendly café offering delicious food, private spaces, great ambience and memorable dining experiences." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cafe Love Byte | Dates, Food & Good Vibes" />
+    <meta name="twitter:description" content="Cafe Love Byte is a couple-friendly and group-friendly café offering delicious food, private spaces, great ambience and memorable dining experiences." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- Google Fonts: Inter & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Zero-FOUC Theme Detection Script -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('lovebyte_theme');
+          var theme = saved;
+          if (!theme || (theme !== 'light' && theme !== 'dark')) {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+          }
+          document.documentElement.setAttribute('data-theme', theme);
+          document.documentElement.style.colorScheme = theme;
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

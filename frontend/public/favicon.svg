@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E06A55" />
+      <stop offset="100%" stop-color="#8A3B2C" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="url(#roseGrad)" />
+  <!-- Coffee Cup Silhouette with Heart Steam -->
+  <path d="M30 45 C30 65, 42 72, 50 72 C58 72, 70 65, 70 45 Z" fill="#FFFFFF" />
+  <path d="M68 47 C76 47, 78 57, 68 59" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" />
+  <!-- Heart steam -->
+  <path d="M50 38 C44 30, 36 32, 40 24 C44 18, 50 26, 50 26 C50 26, 56 18, 60 24 C64 32, 56 30, 50 38 Z" fill="#FFD166" />
+</svg>
